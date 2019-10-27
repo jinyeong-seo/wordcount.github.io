@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body{background-color:beige;}
+        h1{
+            color:orange;
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+            padding: 30px;
+          }
+        p{
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+            padding: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }   
+        a{
+            font-size:20px;
+            font-weight:lighter;
+            font-style: italic;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+        <h1>About</h1>
+
+        <p>멋쟁이 사자처럼 7.5기 서진영이 만든 페이지입니당.</p>
+        <p>단어 수를 세주는 페이지입니다. 자소서 쓸때 꿀이죠.</p>
+        <br>
+        <br>
+        <br>
+        <a href="{% url 'home' %}">home으로 가기</a>
+    
+</body>
+</html>

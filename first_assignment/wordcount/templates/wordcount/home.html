@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{text-align: center; font-family: arial black; font-size: 50px;}
+        body{text-align: center; background-color:beige;}
+        a{font-size: 25px; font-style: italic; text-align:right;}
+    </style>
+    <h1>WORD COUNT_ver.JY</h1>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <a href="{% url 'about' %}">About</a>
+        <br>
+        <br>
+        <form action="{% url 'count' %}">
+        <textarea cols="60" rows="30" name="fulltext"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Count" text-/>
+    </form>
+</body>
+</html>
